@@ -1,1 +1,7 @@
-console.log('javascript is linked up');
+import store from './components/store.js';
+
+const init = () => {
+  store.makeStore();
+};
+
+init();
